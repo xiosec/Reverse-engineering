@@ -1,0 +1,5 @@
+[ExPression]
+0=<ModuleEntryPoint>
+1=SHGetFolderPathA
+2=SHGetFolderPath
+3=SHGetFolderPathW

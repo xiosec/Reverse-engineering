@@ -1,0 +1,33 @@
+struct RECT {
+  LONG left;
+  LONG top;
+  LONG right;
+  LONG bottom;
+};
+
+struct SIZE {
+  LONG cx;
+  LONG cy;
+};
+
+struct POINT {
+  LONG x;
+  LONG y;
+};
+
+struct LOGFONT {
+   LONG  lfHeight;
+   LONG  lfWidth;
+   LONG  lfEscapement;
+   LONG  lfOrientation;
+   LONG  lfWeight;
+   BYTE  lfItalic;
+   BYTE  lfUnderline;
+   BYTE  lfStrikeOut;
+   BYTE  lfCharSet;
+   BYTE  lfOutPrecision;
+   BYTE  lfClipPrecision;
+   BYTE  lfQuality;
+   BYTE  lfPitchAndFamily;
+   TCHAR lfFaceName[32];
+};
